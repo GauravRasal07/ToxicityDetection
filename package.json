@@ -1,0 +1,23 @@
+{
+  "name": "toxicitydetection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node app.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GauravRasal07/ToxicityDetector.git"
+  },
+  "author": "mr.gaurav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GauravRasal07/ToxicityDetector/issues"
+  },
+  "homepage": "https://github.com/GauravRasal07/ToxicityDetector#readme"
+}
