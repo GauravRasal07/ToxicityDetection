@@ -1,5 +1,7 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const client  = new Discord.Client();
+
+const file    = require("./secretes");
 
 require('@tensorflow/tfjs');
 const toxicity = require('@tensorflow-models/toxicity');
@@ -29,4 +31,4 @@ client.on('message', async msg => {
   });
 });
 
-client.login('ODI1NjAxMDE2ODg3NzcxMTQ2.YGAS3Q.7fH2GrHdlebtTerlaxS9yi5eYYI');
+client.login(file.clientID);
