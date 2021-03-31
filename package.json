@@ -10,7 +10,7 @@
   "dependencies": {
     "discord.js": "^12.5.1",
     "@tensorflow/tfjs" : "",
-    "@tensorflow-models/toxicity"
+    "@tensorflow-models/toxicity" : ""
   },
   "repository": {
     "type": "git",
