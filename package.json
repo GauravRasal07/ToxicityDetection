@@ -5,12 +5,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node app.js"
+    "start": "node app.js"
   },
   "dependencies": {
+    "@tensorflow-models/toxicity": "",
+    "@tensorflow/tfjs": "",
     "discord.js": "^12.5.1",
-    "@tensorflow/tfjs" : "",
-    "@tensorflow-models/toxicity" : ""
+    "dotenv": "^8.2.0"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client  = new Discord.Client();
+require("dotenv").config();
 
 const file    = require("./secretes");
 
@@ -31,4 +32,4 @@ client.on('message', async msg => {
   });
 });
 
-client.login(file.clientID);
+client.login(process.env.CLIENT_ID);
